@@ -28,15 +28,3 @@ let students = [
     { name: "Piero", id: 102, grades: 50 },
     { name: "Francesca", id: 120, grades: 84 },
 ];
-
-const upperCase = students.map((nome, i) => {
-    upperCase.nome[i].toUpperCase();
-});
-
-console.log(upperCase);
-
-const highGrades = students.filter((grades) => {
-    if (grades > 70) {
-        true;
-    }
-});
